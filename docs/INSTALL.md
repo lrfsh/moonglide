@@ -68,7 +68,7 @@ sudo udevadm control --reload && sudo udevadm trigger
 ## PS5 helper (source builds)
 
 The AppImage includes it. From source: build <https://github.com/lrfsh/moonglide-chiaki-tap> with `./build.sh`
-(needs git, cmake, ninja, a C compiler and the openssl, opus and pulse dev packages).
+(needs git, cmake, ninja, a C compiler, `python3-protobuf` and the openssl, opus and pulse dev packages).
 
 ## lsfg-vk (optional)
 
